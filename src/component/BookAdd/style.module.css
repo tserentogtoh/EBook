@@ -1,0 +1,100 @@
+.Container {
+    position: fixed;
+  
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    font-size: 30px;
+  }
+  .ModalBackdrop {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+  
+  }
+  .ModalBox {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+  }
+  .input {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 15px;
+    width: 100%;
+    font-family: FontAwesome;
+    margin-top: 1vh;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(196, 195, 195);
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+  }
+  .input::placeholder {
+    color: gray;
+    font-size: 14px;
+  }
+  .input:focus {
+    outline: none;
+    box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
+      -0.5px -0.5px 3px rgb(50, 105, 206);
+  }
+  .select {
+    width: 50%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-color: rgb(196, 195, 195);
+    font-size: 15px;
+    font-family: FontAwesome;
+  }
+  
+  .select:focus {
+    outline: none;
+    box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
+      -0.5px -0.5px 3px rgb(50, 105, 206);
+  }
+  
+  .option {
+    font-size: 15px;
+  }
+  
+  .inputSelect {
+    display: flex;
+    flex-direction: column;
+  }
+  .label {
+    padding-bottom: 5px;
+  }
+  .button {
+    width: 10vw;
+    height: 5vh;
+    background-color: #00d1b2;
+    border: 0.5px solid #75f3e0;
+    color: white;
+    border-radius: 1vh;
+    transition: 0.2s;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+  .button:active {
+    background-color: #00d1b2;
+  }
+  .button:focus {
+    outline: none;
+  }
+  .button:hover {
+    background-color: #0aa58e;
+    transition: 0.2s;
+  }

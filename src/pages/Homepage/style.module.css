@@ -1,0 +1,13 @@
+.Navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+.Container{
+    z-index: 1;
+    /* padding-top: 10vh; */
+}
+.Gap{
+    height:10vh ;
+}

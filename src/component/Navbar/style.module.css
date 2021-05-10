@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 3px 2px 2px gray;
+    z-index: 2;
+}
+
+.select{
+    height: 2rem;
+}
+.search{
+    margin-right: 1rem;
+}
+.input{
+    width: 21rem;
+    height: 2rem;
+    margin-right: 0.1rem;
+}
+.bascket{
+    margin-right: 7rem;
+}
+.bttn{
+    height: 2rem;
+}
+.logbttn{
+    height: 2rem;
+}

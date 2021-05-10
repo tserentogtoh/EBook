@@ -1,0 +1,29 @@
+.NullContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+.Container{
+    height: 50vh;
+}
+.pg{
+    font-size: 2rem;
+}
+
+.bttn{
+    width: 10vw;
+    height: 5vh;
+}
+.LogCard{
+    display: flex;
+}
+.Navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+.Gap{
+    height:6vh ;
+}
